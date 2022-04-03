@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b,s;
+    cout << "Введите число a";
+    cin >> a;
+    cout << "Введите число b";
+
+    while(1){
+        cin>> b;
+    if (b<=a){
+        cout << "Введите число b, большое a";
+        continue;
+    }
+    for (int i=a; i!=b; i++){
+        s=i*3;
+        cout << s << "\n";
+        }
+        break;
+    }
+    return 0;
+}
