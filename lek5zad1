@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+float SquaredSum (float x, float y){
+    float result; 
+    result = x*x +y*y;
+    return result;
+}
+int main() {
+   cout <<SquaredSum (1.2, 2.2); 
+   return 0;
+}
