@@ -1,0 +1,19 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+    int before, current;
+    cin >> current;
+    cout << "Enter number:"<< current<< endl;
+    ofstream file("digits.txt");
+    while(true){
+        before = current;
+        cin >> current;
+        if(before == current) break;
+        file<< current<< endl;
+}
+    file.close();
+    return 0;
+}
