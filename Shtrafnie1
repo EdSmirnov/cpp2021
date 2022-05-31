@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int N, number, sum=0;
+        cout<< "Kol-vo el-tov v massive:";
+    cin>> N;
+    int arr[N];
+        for(number=0; number<N; number++){
+        cin>>arr[number];
+    if(arr[number]%2==0) sum=sum+arr[number];
+    }
+    for(number=0; number<N; number++){
+    cout<<arr[number]<< endl;
+    }
+    cout<< "Summa chet chisel:"<< sum<< endl;
+    return 0;
+}
